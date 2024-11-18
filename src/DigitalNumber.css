@@ -1,0 +1,50 @@
+.digital-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: transparent;  /* Remove the background */
+  }
+  
+  .digital-number {
+    font-family: 'Digital-7', sans-serif;  /* Use a digital font or custom styling */
+    font-size: 120px;  /* Increase the font size */
+    font-weight: bold;
+    padding: 0 10px;
+    transition: transform 0.6s ease-in-out;
+    color: #222; /* Default color */
+  }
+  
+  .digital-number.transform {
+    transform: scale(1.2); /* Apply scale effect */
+  }
+  
+  .unit-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    outline: none;
+  }
+  
+  select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
